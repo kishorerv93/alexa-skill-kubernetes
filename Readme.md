@@ -17,7 +17,7 @@ Currently it supports the following intents:
 
 You can build and install the function using something like:
 
-    mvn clean package shade:shade com.github.seanroy:lambda-maven-plugin:deploy-lambda -DaccessKey=`pass aws/access_key` -DsecretKey=`pass aws/secret`
+    mvn clean package shade:shade com.github.seanroy:lambda-maven-plugin:deploy-lambda -DaccessKey=`pass aws/access_key` -DsecretKey=`pass aws/sec
     
 The above assumes that you are using [password-store](https://passwordstore.org) for managing credentials (which btw you should do rahter than keeping them lying around as env vars...).
 If not, feel free to substitute the `pass` bits with your actual access key and secret.
